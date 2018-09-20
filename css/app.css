@@ -91,6 +91,7 @@ time {
 article img {
     height: auto;
     width: 100%;
+
 }
 
 .read-more {
@@ -99,6 +100,10 @@ article img {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+    transition:color .2s linear;
+}
+.read-more:hover {
+  color:#aa2d66;
 }
 
 .read-more::after {
